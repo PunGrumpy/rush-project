@@ -212,16 +212,16 @@
 
       const generateSkillCard = skill => {
         return `
-      <div class="p-4 bg-white dark:bg-gray-800 border dark:border-gray-700 rounded-lg shadow-md transition-color duration-300 hover:shadow-xl hover:shadow-[#000000] hover:border-[#000000] hover:bg-[#f3f4f6] dark:hover:bg-[#1a202c] dark:hover:border-[#1a202c] dark:hover:shadow-[#000000] hover:scale-105">
-        <div class="text-center">
-          <i class="${skill.iconClass} text-[64px]"></i>
-        </div>
-        <h3 class="text-xl font-semibold text-center mt-4">${skill.name}</h3>
-        <p class="text-gray-600 dark:text-gray-400 text-center">
-          ${skill.description}
-        </p>
-      </div>
-    `
+          <div class="p-4 bg-white dark:bg-gray-800 border dark:border-gray-700 rounded-lg shadow-md transition-color duration-300 hover:shadow-xl hover:shadow-[#000000] hover:border-[#000000] hover:bg-[#f3f4f6] dark:hover:bg-[#1a202c] dark:hover:border-[#1a202c] dark:hover:shadow-[#000000] hover:scale-105">
+            <div class="text-center">
+              <i class="${skill.iconClass} text-[64px]"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-center mt-4">${skill.name}</h3>
+            <p class="text-gray-600 dark:text-gray-400 text-center">
+              ${skill.description}
+            </p>
+          </div>
+        `
       }
 
       const renderSkills = (startIndex, count) => {
