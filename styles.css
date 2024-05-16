@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+}
+
+.backdrop-blur-lg {
+  backdrop-filter: blur(10px);
+}
+
+.transition-colors {
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.transition-all {
+  transition: all 0.5s ease-in-out;
+}
