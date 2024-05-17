@@ -6,7 +6,13 @@
     <title>Teachin Pongmanee | Programmer, Gamer</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="../styles.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <script src="../tailwind.config.js"></script>
   </head>
   <body
@@ -16,22 +22,22 @@
       class="fixed-nav bg-gray-50 bg-opacity-30 dark:bg-gray-800 dark:bg-opacity-30 text-black dark:text-white shadow-lg p-4 backdrop-blur-lg"
     >
       <div class="container mx-auto flex justify-between items-center">
-        <div class="text-lg font-bold">
-          <a href="../index.html">Rush Project</a>
+        <div class="flex items-center space-x-8">
+          <div class="text-lg font-bold">
+            <a href="/">Rush Project</a>
+          </div>
+          <ul class="flex space-x-4 transition-all duration-500">
+            <li>
+              <a href="#home" class="hover:text-blue-500">Home</a>
+            </li>
+            <li>
+              <a href="#about" class="hover:text-blue-500">About</a>
+            </li>
+            <li>
+              <a href="#contact" class="hover:text-blue-500">Contact</a>
+            </li>
+          </ul>
         </div>
-        <ul class="flex space-x-4 transition-all duration-500">
-          <li>
-            <a href="../index.html" class="hover:text-blue-500">Home</a>
-          </li>
-          <li>
-            <a href="../index.html/#about" class="hover:text-blue-500">About</a>
-          </li>
-          <li>
-            <a href="../index.html/#contact" class="hover:text-blue-500"
-              >Contact</a
-            >
-          </li>
-        </ul>
         <button
           id="theme-toggle"
           type="button"
@@ -79,65 +85,101 @@
         </button>
       </div>
     </nav>
-<!-- About me section -->
+    <!-- About me section -->
     <div class="container mx-auto mt-20 p-4">
-      <img src="../assets/tpongman.png" alt="Teachin Pongmanee profile pic" >
+      <div id="img" class="flex justify-center items-center">
+        <img src="../assets/tpongman.png" alt="Teachin Pongmanee profile pic" />
+      </div>
       <h1
         class="text-4xl font-bold text-center my-10 text-blue-600 dark:text-blue-400"
+        style="margin-bottom: 5px"
       >
         <p>Teachin Pongmanee</p>
-        <p>Feen</p>
       </h1>
-      <p class="text-gray-700 dark:text-gray-300 text-center">
-        3rd Year Computer Science 
+      <h1
+        class="text-3xl font-bold text-center my-10 text-blue-600 dark:text-blue-400"
+        style="margin-top: 5px"
+        style="margin-bottom: 1px"
+      >
+        Feen
+      </h1>
+      <p class="text-3xl text-gray-700 dark:text-gray-300 text-center">
+        3rd Year Computer Science
+      </p>
+      <p class="text-3xl text-gray-700 dark:text-gray-300 text-center">
         King Mongkut's Institute of Technology Ladkrabang
       </p>
-      <p>
-        Hey there I'm Feen It's nice to meet you! Here is a little bit about me and the wide variety of experience I bring to the table. 
+      <p class="text-2xl text-center">
+        Hey there I'm Feen It's nice to meet you! Here is a little bit about me
+        and the wide variety of experience I bring to the table. I'm passionate
+        about the gaming industry and have a keen interest in game development,
+        game testing, and community management.
       </p>
     </div>
-<!-- Showcase Section -->
-    <div class="container mx-auto mt-20 p-4>
+    <!-- Showcase Section -->
+    <div class="container mx-auto mt-20 p-4">
       <h1
         class="text-4xl font-bold text-center my-10 text-blue-600 dark:text-blue-400"
       >
         Skill
       </h1>
-        <p style="text-align: center;">
-            <img src="https://skillicons.dev/icons?i=java,py,c,cs,cpp,bots,discord,docker," /> 
-            <img src="https://skillicons.dev/icons?i=figma,ps,pr,blender" /> 
-        </p>
+      <div>
+        <div class="flex justify-center items-center">
+          <img
+            src="https://skillicons.dev/icons?i=java,py,c,cs,cpp,bots,discord,docker"
+          />
+        </div>
+        <br />
+        <div class="flex justify-center items-center">
+          <img src="https://skillicons.dev/icons?i=figma,ps,pr,blender" />
+        </div>
+      </div>
       <h1
-        class="text-4xl font-bold text-center my-10 text-blue-600 dark:text-blue-400"
+        class="text-3xl font-bold text-center my-10 text-blue-600 dark:text-blue-400"
       >
-        Also not just about promgramming , I have a lot of achivement about gaming
-        and this is my proudest achivement so far
+        Also not just about promgramming , I have a lot of achivement about
+        gaming and this is my proudest achivement so far
       </h1>
-      <div class="videoWrapper" style="text-align: center">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/hf-QJYyM-uM?si=8wCY626WfCzR3ZLH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <div class="videoWrapper">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/hf-QJYyM-uM?si=8wCY626WfCzR3ZLH"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
       </div>
     </div>
     <!-- Contact -->
     <div class="container mx-auto mt-20 p-4">
-      Contact
-      <a target="_blank" href="https://discord.com/users/442284470138175489">
-        <i class="fa-brands fa-discord"></i>
-      </a>
-      <a target="_blank" href="https://www.youtube.com/@feen5928">
-        <i class="fa-brands fa-youtube"></i>
-      </a>
-      <a target="_blank" href="https://www.twitch.tv/nongfeennarukk">
-        <i class="fa-brands fa-twitch"></i>
-      </a>
-      <a target="_blank" href="https://www.facebook.com/kakfeen/">
-        <i class="fa-brands fa-facebook"></i>
-      </a>
-      <a target="_blank" href="https://github.com/NongFeen">
-        <i class="fa-brands fa-github"></i>
-      </a>
-      <a target="_blank" href="https://www.instagram.com/nongfeennarukk/">
-        <i class="fa-brands fa-instagram"></i>
-      </a>
+      <h1
+        class="text-3xl font-bold text-center my-10 text-blue-600 dark:text-blue-400"
+      >
+        Contact
+      </h1>
+      <div class="flexIcon-container text-3xl">
+        <a target="_blank" href="https://discord.com/users/442284470138175489">
+          <i class="fa-brands fa-discord"></i>
+        </a>
+        <a target="_blank" href="https://www.youtube.com/@feen5928">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+        <a target="_blank" href="https://www.twitch.tv/nongfeennarukk">
+          <i class="fa-brands fa-twitch"></i>
+        </a>
+        <a target="_blank" href="https://www.facebook.com/kakfeen/">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a target="_blank" href="https://github.com/NongFeen">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a target="_blank" href="https://www.instagram.com/nongfeennarukk/">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
     </div>
     <script src="../script.js" defer></script>
   </body>
