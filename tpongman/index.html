@@ -5,15 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Teachin Pongmanee | Programmer, Gamer</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="../styles.css" />
+    <script src="../tailwind.config.js" defer></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     />
-    <script src="../tailwind.config.js"></script>
+    <link rel="stylesheet" href="../styles.css" />
+    <style>
+      .aspect-ratio-16-9 {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%;
+      }
+      .aspect-ratio-16-9 iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
   </head>
   <body
     class="bg-gray-100 dark:bg-gray-900 dark:text-gray-100 transition-all duration-500"
@@ -136,7 +147,7 @@
         Also not just about promgramming , I have a lot of achivement about
         gaming and this is my proudest achivement so far
       </h1>
-      <div class="videoWrapper">
+      <div class="aspect-ratio-16-9 mx-auto">
         <iframe
           width="560"
           height="315"
@@ -156,7 +167,7 @@
       >
         Contact
       </h1>
-      <div class="flexIcon-container text-3xl">
+      <div class="flex justify-center gap-4 text-3xl">
         <a target="_blank" href="https://discord.com/users/442284470138175489">
           <i class="fa-brands fa-discord"></i>
         </a>

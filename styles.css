@@ -1,48 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-}
-
-.fixed-nav {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-  transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
-}
-
-.backdrop-blur-lg {
-  backdrop-filter: blur(10px);
-}
-
-.transition-colors {
-  transition: color 0.3s, background-color 0.3s;
-}
-
-.transition-all {
-  transition: all 0.5s ease-in-out;
-}
-
-.videoWrapper {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  padding-top: 25px;
-  height: 0;
-}
-.videoWrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-.flexIcon-container {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  transition: background-color 0.5s, color 0.5s;
 }
