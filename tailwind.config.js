@@ -12,6 +12,9 @@ tailwind.config = {
           darkTransparent: 'rgba(31, 41, 55, 0.75)',
           lightTransparent: 'rgba(243, 244, 246, 0.75)'
         }
+      },
+      transitionProperty: {
+        height: 'height'
       }
     }
   }
