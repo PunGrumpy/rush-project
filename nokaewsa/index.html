@@ -81,32 +81,37 @@
       </div>
     </nav>
 
-    <div class="container mx-auto mt-24 p-4">
-      <div class="text-center mb-10">
+    <header
+      class="pt-24 pb-16 bg-gradient-to-br from-blue-500 to-purple-600 text-white text-center"
+    >
+      <div class="container mx-auto">
         <img
           id="about"
           src="../assets/nokaewsa.png"
           alt="Noppakorn Kaewsalabnil"
-          class="h-40 w-40 object-cover rounded-full mx-auto"
+          class="h-40 w-40 object-cover rounded-full mx-auto mb-4"
           width="200"
         />
-        <h1 class="text-4xl font-bold my-5 text-blue-600 dark:text-blue-400">
-          Noppakorn Kaewsalabnil
-        </h1>
-        <p class="text-gray-700 dark:text-gray-300 max-w-xl mx-auto">
+        <h1 class="text-4xl font-bold">Noppakorn Kaewsalabnil</h1>
+        <p class="text-lg opacity-75">Computer Science Student &amp; Gamer</p>
+        <p class="text-base mt-4 max-w-xl mx-auto">
           Hello, I'm Noppakorn Kaewsalabnil from Thailand. I'm a student at King
           Mongkut's Institute of Technology Ladkrabang (KMITL). I'm studying in
           the School of Science. I'm interested in programming and DevOps.
         </p>
       </div>
+    </header>
 
-      <h2
-        class="text-2xl font-bold mb-5 text-center text-blue-600 dark:text-blue-400"
-        id="skills"
-      >
-        Skills & Tools
-      </h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"></div>
+    <div class="container mx-auto mt-8 p-4">
+      <section class="mb-4">
+        <h2
+          class="text-2xl font-bold mb-5 text-center text-blue-600 dark:text-blue-400"
+          id="skills"
+        >
+          Skills & Tools
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"></div>
+      </section>
 
       <h2
         class="text-2xl font-bold mt-10 mb-5 text-center text-blue-600 dark:text-blue-400"
@@ -226,12 +231,6 @@
           description: 'An open-source infrastructure as code software tool.'
         },
         {
-          name: 'Ansible',
-          iconClass: 'devicon-ansible-plain',
-          description:
-            'An open-source software provisioning, configuration management, and application-deployment tool.'
-        },
-        {
           name: 'Argo CD',
           iconClass: 'devicon-argocd-plain colored',
           description:
@@ -241,41 +240,6 @@
           name: 'GitHub Actions',
           iconClass: 'devicon-githubactions-plain colored',
           description: 'A CI/CD service that makes it easy to automate tasks.'
-        },
-        {
-          name: 'Prometheus',
-          iconClass: 'devicon-prometheus-original colored',
-          description: 'An open-source monitoring and alerting toolkit.'
-        },
-        {
-          name: 'Grafana',
-          iconClass: 'devicon-grafana-plain colored',
-          description: 'An open-source analytics and monitoring solution.'
-        },
-        {
-          name: 'Portainer',
-          iconClass: 'devicon-portainer-original colored',
-          description: 'An open-source lightweight management UI for Docker.'
-        },
-        {
-          name: 'Go',
-          iconClass: 'devicon-go-original-wordmark colored',
-          description: 'An open-source programming language.'
-        },
-        {
-          name: 'TypeScript',
-          iconClass: 'devicon-typescript-plain colored',
-          description: 'A strict syntactical superset of JavaScript.'
-        },
-        {
-          name: 'Next.js',
-          iconClass: 'devicon-nextjs-plain',
-          description: 'A React framework for production.'
-        },
-        {
-          name: 'Tailwind CSS',
-          iconClass: 'devicon-tailwindcss-original colored',
-          description: 'A utility-first CSS framework.'
         }
       ]
 
