@@ -17,14 +17,5 @@ tailwind.config = {
         height: 'height'
       }
     }
-  },
-  plugins: [
-    function ({ addUtilities }) {
-      addUtilities({
-        '.scroll-smooth': {
-          scrollBehavior: 'smooth'
-        }
-      })
-    }
-  ]
+  }
 }
